@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+.menu li{
+    margin-left: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #333;
+}
+
+.banner img{
+    width: 100%;
+    bleed :100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-info{
+    text-align: center;
+}
+
+.banner-info img{
+    width: 300px;
+    border-radius: 100%;
+}
+
+.textbox{
+    margin-bottom: 20px; /* กำหนดระยะห่างระหว่างบรรทัด */
+    display: flex;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    position: center;
+}
